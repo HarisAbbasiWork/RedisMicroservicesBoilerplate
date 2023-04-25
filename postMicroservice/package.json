@@ -1,0 +1,22 @@
+{
+  "name": "graph-ql-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.8.2",
+    "apollo-server-core": "^3.8.2",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.5",
+    "nodemon": "^2.0.16",
+    "redis": "^4.6.5"
+  }
+}
